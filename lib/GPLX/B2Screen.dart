@@ -26,13 +26,13 @@ class B2screen extends StatelessWidget {
       ),
       backgroundColor: Colors.white,
       body: Padding(
-        padding: const EdgeInsets.all(5),
+        padding: const EdgeInsets.all(20),
         child: Column(
           children: [
             Container(
               decoration: BoxDecoration(
                 color: Color(0xFF2352AB),
-                borderRadius: BorderRadius.circular(15),
+                borderRadius: BorderRadius.circular(20),
               ),
               padding: EdgeInsets.all(10),
               child: Column(
@@ -107,7 +107,7 @@ class B2screen extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.white,
               ),
-              padding: EdgeInsets.all(15),
+              padding: EdgeInsets.all(10),
               child: Image.asset(
                 iconPath,
                 width: 40,
@@ -118,7 +118,7 @@ class B2screen extends StatelessWidget {
             Text(
               label,
               style: TextStyle(
-                fontSize: 12,
+                fontSize: 10,
                 color: Colors.white,
                 fontFamily: 'Roboto-Bold',
               ),

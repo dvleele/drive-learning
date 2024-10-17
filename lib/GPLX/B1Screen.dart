@@ -26,7 +26,7 @@ class B1screen extends StatelessWidget {
       ),
       backgroundColor: Colors.white,
       body: Padding(
-        padding: const EdgeInsets.all(5),
+        padding: const EdgeInsets.all(20),
         child: Column(
           children: [
             Container(
@@ -43,7 +43,7 @@ class B1screen extends StatelessWidget {
                       iTem('THI THỬ', 'assets/images/exam.png', context, thiThu()),
                       iTem('THI THEO ĐỀ', 'assets/images/openbook.png', context, thiTheoDe()),
                       iTem('CÂU SAI', 'assets/images/close.png', context, cauSai()),
-                      iTem('BIỂN BÁO', 'assets/images/bienbao.png', context, bienBao()),
+                      iTem('BIỂN BÁO', 'assets/images/bienbao.png', context, BienBao()),
                     ],
                   ),
                   SizedBox(height: 10),
@@ -107,7 +107,7 @@ class B1screen extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.white,
               ),
-              padding: EdgeInsets.all(15),
+              padding: EdgeInsets.all(10),
               child: Image.asset(
                 iconPath,
                 width: 40,
@@ -118,7 +118,7 @@ class B1screen extends StatelessWidget {
             Text(
               label,
               style: TextStyle(
-                fontSize: 12,
+                fontSize: 10,
                 color: Colors.white,
                 fontFamily: 'Roboto-Bold',
               ),
